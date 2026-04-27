@@ -1,15 +1,44 @@
 <html>
 <head>
   <style>
-    body { background:#111; color:white; font-family:sans-serif; }
-    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; padding:20px; }
-    .card { background:#222; padding:20px; border-radius:15px; text-align:center; }
-    a { color:white; text-decoration:none; }
+    body {
+      background:#0f0f0f;
+      color:white;
+      font-family:sans-serif;
+      text-align:center;
+    }
+    h1 { margin-top:20px; }
+
+    .grid {
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:20px;
+      padding:20px;
+    }
+
+    .card {
+      background:#1c1c1c;
+      padding:20px;
+      border-radius:15px;
+      transition:0.2s;
+    }
+
+    .card:hover {
+      background:#2a2a2a;
+      transform:scale(1.05);
+    }
+
+    a {
+      color:white;
+      text-decoration:none;
+      font-size:18px;
+    }
   </style>
 </head>
+
 <body>
 
-<h1 style="text-align:center;">PAINEL DOOH</h1>
+<h1>🎯 PAINEL DOOH</h1>
 
 <div class="grid">
   <div class="card"><a href="tela1.html">Tela 1</a></div>
@@ -19,6 +48,7 @@
   <div class="card"><a href="tela5.html">Tela 5</a></div>
   <div class="card"><a href="tela6.html">Tela 6</a></div>
   <div class="card"><a href="tela7.html">Tela 7</a></div>
+  <div class="card"><a href="tela7.html">Tela 8</a></div>
 </div>
 
 </body>
